@@ -1,0 +1,514 @@
+* {
+    transition: 0.4s ease;
+    font-weight: bold;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    /* margin: auto; */
+}
+
+.Header {
+    width: 100%;
+    height: 8vh;
+    background-color: #ffa927;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-content: center;
+    color: white;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.Logo {
+    line-height: 0vh;
+    width: 10%;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.Icon {
+    font-size: 15px;
+    width: 30%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.Icon_Style {
+    height: 8vh;
+    width: 20%;
+    text-align: center;
+    cursor: default;
+    transition: 0.4s ease 0.1s;
+}
+
+.Icon_Style:hover {
+    box-shadow: inset 0px -6px 6px 0px rgba(250, 77, 77, 0.623);
+}
+
+.Search {
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.se {
+    float: left;
+    width: 80%;
+    height: 30px;
+    border-radius: 10px 0px 0px 10px;
+    border: 0px;
+    outline: 0px;
+    padding-left: 10px;
+    color: #000000;
+    font-size: 15px;
+}
+
+.go {
+    float: right;
+    width: 20%;
+    height: 30px;
+    background-color: white;
+    border: 0px;
+    border-radius: 0px 10px 10px 0px;
+
+}
+
+.go:hover {
+    box-shadow: 3px 3px 6px 0px rgb(0 76 255 / 62%);
+
+}
+
+.se:focus {
+    box-shadow: -4px 3px 5px 0px rgba(41, 48, 255, 0.62);
+}
+
+.se:hover {
+    box-shadow: -4px 3px 5px 0px rgba(48, 55, 255, 0.62);
+}
+
+.main {
+    margin-top: 0px;
+}
+
+.bg1 {
+    background-image: url(./image/3back.jpg);
+    background: cover no-repeat;
+    width: 100%;
+    margin-top: 0px;
+    height: 70vh;
+    padding-top: 10vh;
+}
+
+.bg1 div {
+    width: 100%;
+    height: 60vh;
+    background-color: rgba(0, 0, 0, 0.63);
+    padding-top: 5vh;
+    color: white;
+    text-align: center;
+}
+
+.Main h1 {
+    font-size: 60px;
+}
+
+.Main h2 {
+    font-size: 25px;
+}
+
+.Main p {
+    font-size: 15px;
+    width: 350px;
+    margin: auto;
+}
+
+.bg1 div button {
+    margin-top: 50px;
+    width: 10%;
+    height: 40px;
+    border-radius: 25%;
+    background-color: #ff9900;
+    border: 0px;
+    transition: 0.6s ease;
+    color: white;
+    box-shadow: inset 0px -10px 10px 0px rgba(255, 60, 0, 0.87);
+}
+
+.bg1 div button:hover {
+    box-shadow: inset 0px -10px 10px 0px rgba(255, 0, 0, 0.87);
+
+    transform: scale(1.2);
+}
+
+.hr {
+    color: #ebebeb;
+    width: 100%;
+    height: 1px;
+}
+
+.bg2 {
+    background-image: url(./image/2back.jpg);
+    background: cover no-repeat;
+    width: 100%;
+    height: 80vh;
+    padding-top: 2vh;
+    color: white;
+    text-align: center;
+}
+
+.bg2 p {
+    padding-bottom: 20px;
+}
+
+.contener1 {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: space-around;
+
+}
+
+.contener1 .bgg1 {
+    background-image: url(./image/sushi-place.jpg);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: 0.6s ease 0.2s;
+}
+
+.contener1 .bgg1:hover {
+    background-image: url(./image/ff.jpg);
+}
+
+.contener1 .bgg2 {
+    background-image: url(./image/ee.jpg);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: 0.6s ease 0.2s;
+}
+
+.contener1 .bgg2:hover {
+    background-image: url(./image/rr.jpg);
+}
+
+.contener1 .bgg3 {
+    background-image: url(./image/3pic.jpg);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: 0.6s ease 0.2s;
+}
+
+.contener1 .bgg3:hover {
+    background-image: url(./image/dom-sushi-gdansk.jpg);
+}
+
+.contener2 {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.bg3 {
+    width: 100%;
+    height: 5vh;
+    background-color: #ff9900d5;
+    border: 1px solid black;
+    border-bottom: 0px;
+}
+
+.bg4 {
+    width: 100%;
+    height: 5vh;
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-top: 0px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.bg5 {
+    background-image: url(./image/bback.jpg);
+    background: cover no-repeat;
+    width: 100%;
+    height: 40vh;
+    margin-top: 70px;
+    border: 1px solid black;
+    border-bottom: 0px;
+    border-radius: 50px 50px 0px 0px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.bg5 .bgg1 {
+    width: 30%;
+    height: 100px;
+}
+
+.bg5 .bgg3 {
+    width: 30%;
+    height: 100px;
+}
+
+.bg5 .bgg2 {
+    background-image: url(./image/pi.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: 0.4s ease 0.2s;
+
+}
+
+.bg5 .bgg2:hover {
+    background-image: url(./image/enter.PNG);
+
+}
+
+.bg5 .bgg1 p {
+    padding-top: 50px;
+    font-size: 27px;
+    line-height: 50px;
+    color: #c99805;
+
+}
+
+.bg5 .bgg3 p {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.bg6 {
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    border-top: 0px;
+    border-radius: 0px 0px 50px 50px;
+}
+
+.Footer {
+    height: 10vh;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    background-image: url(./image/1back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    text-align: right;
+    padding-right: 100px;
+    line-height: 10vh;
+}
+
+.Upper {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #f55c03de;
+    border-radius: 3px;
+    transition: 0.2s ease 0.1s;
+    cursor: default;
+    box-shadow: inset 0px -10px 10px 0px rgba(255, 0, 0, 0.87);
+}
+
+.Upper div {
+    width: 15px;
+    height: 15px;
+    border: #ffe600de solid 2px;
+    margin: auto;
+    margin-top: 7px;
+    border-radius: 2px;
+    transition: 0.6s ease 0.2s;
+}
+
+.Upper div:hover {
+    border-color: #ff9100;
+}
+
+.Upper:hover {
+    box-shadow: inset 0px 10px 10px 0px rgba(255, 0, 0, 0.87);
+    background-color: #f55003de;
+    transform: scale(1.0);
+}
+
+/* #DO{
+    top: 50px;
+} */
+/* Design For Mobile */
+@media (max-width : 700px) {
+    .bg5 .bgg1 p {
+        font-size: 18px;
+        line-height: 36px;
+        padding-left: 16px;
+    }
+
+    .bg5 .bgg2 {
+        width: 141px;
+        height: 148px;
+    }
+
+    .bg5 .bgg3 p {
+        padding-top: 20px;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .Main h1 {
+        font-size: 20px;
+    }
+
+    .Main h2 {
+        font-size: 15px;
+    }
+
+    .Main p {
+        font-size: 10px;
+        width: 200px;
+        margin: auto;
+    }
+
+    /* .Icon_Style {
+
+} */
+    .Icon_Style p {
+
+        font-size: 10px;
+    }
+
+    .se {
+        font-size: 10px;
+        height: 20px;
+    }
+
+    .go {
+        font-size: 10px;
+        margin: auto;
+        height: 20px;
+    }
+
+    .Search {
+        margin-top: 50px;
+        height: 20px;
+    }
+
+    .contener1 .bgg1 {
+        width: 120px;
+        height: 120px;
+    }
+
+    .contener1 .bgg2 {
+        width: 120px;
+        height: 120px;
+    }
+
+    .contener1 .bgg3 {
+        width: 120px;
+        height: 120px;
+    }
+
+    .contener1 a {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+    }
+}
+
+
+/* For Scrolling In WebSite  */
+:root {
+    --primary-color: #222121d0;
+    --primary-color-alt: #6b6767;
+    --danger-color: rgb(83, 81, 81);
+    --border-color: #413f3f;
+}
+
+:root {
+    --main-color: #444343;
+    --half-white: #f8f6f6;
+    --second-color: #474747;
+}
+
+:host,
+:root {
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+
+:host,
+:root {
+    --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+}
+
+:host,
+:root {
+    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+
+:root {
+    --wp--preset--font-size--normal: 16px;
+    --wp--preset--font-size--huge: 42px;
+}
+
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html[Style] {
+    direction: ltr;
+    unicode-bidi: isolate;
+    -webkit-locale: "en";
+}
+
+html {
+    display: block;
+}
+
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+}
+
+::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+/* The End Of Code Of Scrolling in bage */
